@@ -1,5 +1,13 @@
 # Container image that runs your code
-FROM alpine:3.10
+FROM python:3.10-rc-alpine
+
+
+
+WORKDIR /usr/src/app
+
+COPY requirements.txt ./
+RUN pip install yamale
+
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
