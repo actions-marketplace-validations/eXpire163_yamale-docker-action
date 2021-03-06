@@ -5,7 +5,6 @@ FROM python:3.10-rc-alpine
 
 WORKDIR /usr/src/app
 
-COPY requirements.txt ./
 RUN pip install yamale
 
 
