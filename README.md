@@ -5,16 +5,14 @@ github action for yaml schema validation based on [23andMe/Yamale](https://githu
 
 ## Inputs
 
-### `who-to-greet`
-
 **Required** The name of the person to greet. Default `"World"`.
 
-### schema-file:
-    **Required**  Schema files used for validation.  Default: "schema.yml"
-### test-file:
-    **Required**  yaml file that needs to be validated.  Default: "action.yml"
-### strict:
-    strict|nonstrict validation is requred Default: "strict"
+### `schema-file`:
+**Required**  Schema files used for validation.  Default: "schema.yml"
+### `test-file`:
+**Required**  yaml file that needs to be validated.  Default: "action.yml"
+### `strict`:
+strict|nonstrict validation is requred Default: "strict"
 
 
 ## Outputs
