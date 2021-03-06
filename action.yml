@@ -10,6 +10,11 @@ inputs:
     default: "action.yml"
     required: true
     description: "yaml file that needs to be validated"
+  strict:
+    default: "strict"
+    required: false
+    description: "strict|nonstrict validation is requred"
+
 outputs:
   time: # id of output
     description: "The time of validation"
@@ -19,3 +24,4 @@ runs:
   args:
     - ${{ inputs.schema-file }}
     - ${{ inputs.test-file }}
+    - ${{ inputs.strict}}
