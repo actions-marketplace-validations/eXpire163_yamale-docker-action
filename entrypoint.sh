@@ -1,4 +1,5 @@
 #!/bin/sh -l
+set -e
 
 echo "Hello $1"
 echo python --version
