@@ -1,6 +1,6 @@
 # action.yml
-name: "Hello World"
-description: "Greet someone and record the time"
+name: "Yamale"
+description: "A schema and validator for YAML."
 inputs:
   schema-file:
     default: "schema.yml"
