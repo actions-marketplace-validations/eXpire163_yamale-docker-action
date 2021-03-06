@@ -1,6 +1,8 @@
 # yamale-docker-action
 github action for yaml schema validation based on [23andMe/Yamale](https://github.com/23andMe/Yamale)
 
+[![.github/workflows/main.yml](https://github.com/eXpire163/yamale-docker-action/actions/workflows/main.yml/badge.svg)](https://github.com/eXpire163/yamale-docker-action/actions/workflows/main.yml)
+
 ## Inputs
 
 ### `who-to-greet`
