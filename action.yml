@@ -1,5 +1,5 @@
 # action.yml
-name: "Yamale"
+name: "python-yamale"
 description: "A schema and validator for YAML."
 inputs:
   schema-file:
