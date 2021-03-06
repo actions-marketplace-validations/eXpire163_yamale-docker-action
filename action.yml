@@ -1,6 +1,9 @@
 # action.yml
 name: "python-yamale"
 description: "A schema and validator for YAML."
+branding:
+  icon: arrow-left
+  color: purple
 inputs:
   schema-file:
     default: "schema.yml"
