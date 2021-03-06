@@ -1,8 +1,5 @@
 # Container image that runs your code
 FROM python:3.10-rc-alpine
-set -e
-
-
 
 #WORKDIR /usr/src/app
 
