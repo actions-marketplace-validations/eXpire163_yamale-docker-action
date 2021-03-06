@@ -2,15 +2,20 @@
 name: "Hello World"
 description: "Greet someone and record the time"
 inputs:
-  who-to-greet: # id of input
-    description: "Who to greet"
+  schema-file:
+    default: "schema.yml"
+    description: "schema files used for validation"
     required: true
-    default: "World"
+  test-file:
+    default: "action.yml"
+    required: true
+    description: "yaml file that needs to be validated"
 outputs:
   time: # id of output
-    description: "The time we greeted you"
+    description: "The time of validation"
 runs:
   using: "docker"
   image: "Dockerfile"
   args:
-    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.schema-file }}
+    - ${{ inputs.test-file }}

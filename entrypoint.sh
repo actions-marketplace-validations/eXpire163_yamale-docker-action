@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 echo "Hello $1"
-echo python3 --version
-yamale --help
+echo python --version
+yamale --schema $1 $2
 time=$(date)
 echo "::set-output name=time::$time"
