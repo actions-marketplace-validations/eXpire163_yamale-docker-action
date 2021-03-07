@@ -2,13 +2,13 @@ map(str(), include('user'))
 ---
 user:
   team_name: str()
-  aci: str()
-  uuk: str()
-  enable: str()
-  private_cidr: str()
-  stage: str()
-  lau: str()
-  sbns: str()
+  aci: regex('\d+')
+  uuk: regex('[true|false]')
+  enable: regex('[true|false]')
+  private_cidr: regex('[0-9./]+')
+  stage: regex('[prod|nonprod]')
+  lau: regex('[true|false]')
+  sbns: regex('\d{4}')
   ip: include('ipp')
 ---
 ipp:
