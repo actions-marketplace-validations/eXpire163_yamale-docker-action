@@ -21,6 +21,13 @@ jobs:
           schema-file: "schema.yml"
           test-file: "testfiles"
           strict: "strict"
+      - name: root map test
+        id: rootmap
+        uses: eXpire163/yamale-docker-action@main
+        with:
+          schema-file: "mapfiles/map_schema.yml"
+          test-file: "mapfiles/users.yml"
+          strict: "strict"
 
       # Use the output from the `hello` step
       - name: Get the output time

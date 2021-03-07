@@ -1,0 +1,24 @@
+"one":
+  "aci": "1234"
+  "stage": "nonprod"
+  "team_name": "asdf"
+  "lau": "false"
+  "private_cidr": "111.111.0.0/16"
+  "enable": "true"
+  "sbns": "1234"
+  "uuk": "true"
+  "ip":
+    "internet": true
+    "build": false
+"two":
+  "aci": "1234"
+  "stage": "prod"
+  "team_name": "asdf"
+  "lau": "true"
+  "private_cidr": "111.111.0.0/16"
+  "enable": "false"
+  "sbns": "4321"
+  "uuk": "true"
+  "ip":
+    "internet": true
+    "build": false

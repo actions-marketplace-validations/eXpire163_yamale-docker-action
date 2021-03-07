@@ -1,0 +1,16 @@
+map(str(), include('user'))
+---
+user:
+  team_name: str()
+  aci: str()
+  uuk: str()
+  enable: str()
+  private_cidr: str()
+  stage: str()
+  lau: str()
+  sbns: str()
+  ip: include('ipp')
+---
+ipp:
+  internet: bool()
+  build: bool()
