@@ -25,6 +25,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      
+      - name: Debug
+        run: echo "Current branch is {{ github.ref }}"
 
       - name: Run tests
         run: |
