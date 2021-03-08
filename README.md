@@ -55,7 +55,7 @@ jobs:
 ## Local testing
 
 ```
-docker run -v $(pwd):/data dyamale /data/mapfiles/map_schema.yml /data/mapfiles/users.yml true
+docker run -v $(pwd):/data docker.pkg.github.com/expire163/yamale-docker-action/yamale:latest /data/mapfiles/map_schema.yml /data/mapfiles/users.yml true
 ```
 
 
