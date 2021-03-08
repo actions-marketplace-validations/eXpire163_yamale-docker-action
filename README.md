@@ -57,3 +57,6 @@ jobs:
 ```
 docker run -v $(pwd):/data dyamale /data/mapfiles/map_schema.yml /data/mapfiles/users.yml true
 ```
+
+
+test
